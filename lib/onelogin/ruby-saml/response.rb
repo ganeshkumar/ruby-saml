@@ -366,7 +366,6 @@ module OneLogin
 
         validations = [
           :validate_response_state,
-          :validate_id,
           :validate_success_status,
           :validate_no_duplicated_attributes,
           :validate_signed_elements,
