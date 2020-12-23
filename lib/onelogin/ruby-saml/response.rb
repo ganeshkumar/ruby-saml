@@ -376,8 +376,7 @@ module OneLogin
           :validate_audience,
           :validate_destination,
           :validate_issuer,
-          :validate_name_id,
-          :validate_signature
+          :validate_name_id
         ]
 
         if collect_errors
